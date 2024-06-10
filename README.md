@@ -1,4 +1,4 @@
-# HshpGame_GD
+# SquareJumper
 
 GeometryDashを参考(ほぼパ〇り)にして作った2022年度の作品展示会作品
 
