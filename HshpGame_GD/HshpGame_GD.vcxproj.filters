@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{8b5b5ec9-fca2-4978-baec-f6b4ebfd3dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\StageObject">
+      <UniqueIdentifier>{d2c9d9d6-718e-4380-b3ab-6662bc9352ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{4a14a7c8-ab1d-4ff3-ba41-78758105736c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Util">
+      <UniqueIdentifier>{bddb0993-b588-4b59-a822-e4a7f737f146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{bee58b12-c47b-440e-9ec4-8ccbec6aa238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\StageObject">
+      <UniqueIdentifier>{8b16f6ba-e8db-48a5-b1bb-494a60c2228c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Player">
+      <UniqueIdentifier>{27b842ad-1de1-42de-8f7c-ebc26b278ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Util">
+      <UniqueIdentifier>{7dc26fff-f3da-4df1-8b4d-e6e302ee9071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{5f38bf29-dc41-42d0-82eb-f91df4483e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Effect">
+      <UniqueIdentifier>{e1deb0f1-5119-42b0-964d-cb673921d4fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\InputState.cpp">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Vec2.cpp">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectSpike.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectBase.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectBlock.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectJumpPad.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectJumpRing.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneClear.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneMain.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneTitle.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\Stage.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectGoalGate.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectGravityRing.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\HowToPlayer.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectDashRing.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectReverseRing.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneHowTo.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneRanking.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneStageSelect.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\HowToStage.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject\ObjectRingBase.cpp">
+      <Filter>ソース ファイル\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\EffectRing.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ScenePause.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\ParticleBase.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneDemo.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\game.h">
+      <Filter>ヘッダー ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\InputState.h">
+      <Filter>ヘッダー ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Vec2.h">
+      <Filter>ヘッダー ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectBase.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectBlock.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectJumpPad.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectJumpRing.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectSpike.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\Stage.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>ヘッダー ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneBase.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneClear.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneMain.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneTitle.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectGoalGate.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectGravityRing.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\HowToStage.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\HowToPlayer.h">
+      <Filter>ヘッダー ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectDashRing.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectReverseRing.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneHowTo.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneRanking.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneStageSelect.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject\ObjectRingBase.h">
+      <Filter>ヘッダー ファイル\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\EffectRing.h">
+      <Filter>ヘッダー ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ScenePause.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneDemo.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\ParticleBase.h">
+      <Filter>ヘッダー ファイル\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HshpGame_GD.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
